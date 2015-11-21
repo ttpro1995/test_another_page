@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Workchat_Mainscreen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/cs300custom.css" rel="stylesheet">
+
+    <!-- helper script-->
+    <script src = "js/helper.js"></script>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                <div class="container-fluid">
+                   <div class="row">
+                    <a class="col-xs-9" href="#">
+                        CS300
+                    </a>
+                    <div class="close-sidebar">
+                    <a class="col-xs-3" href="#" id="menu-toggle-close">
+                      <span id ="close-sidebar" class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+                    </a>
+                    </div>
+                    </div>
+                </div>
+                </li>
+                <li>          
+                      <!--<a href="#">Mai Ho</a>--> 
+               <div class="dropdown">
+                    <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">   
+                <div class="row">
+                     <div class="col-xs-7"> Mai Ho</div>  
+                            <div class="col-xs-5"> <span class="glyphicon glyphicon-chevron-down"></span></div>
+                </div>
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Meow</a></li>
+                    <li><a href="#">Meow again</a></li>
+                </ul>
+             </div>
+                </li>
+                <li>
+                    <a id="people-header" href="#">People</a>
+                    <ul id="people-entry"></ul>
+                </li>
+                <li>
+                    <a id="group-header" href="#">Team</a>
+                    <ul id="group-entry"></ul>
+                </li>
+                <li>
+                    <a href="#">Calender</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                    <ul id="task-entry"></ul>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+                <li>
+                    <a href="#">Notes</a>
+                </li>
+                <li>
+                    <a href="#">Files</a>
+                </li>
+                <li>
+                    <a href="#">Integrations</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#open-sidebar">
+                            <span  id="open-sidebar" class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- cs300 script-->
+    <script src = "js/cs300.js"></script>
+    
+
+</body>
+
+</html>

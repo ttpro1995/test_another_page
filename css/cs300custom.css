@@ -1,0 +1,35 @@
+#close-sidebar {
+	display: inline;
+}
+
+#open-sidebar{
+	color: #00E6E6;
+	font-size: 18px;
+}
+
+#people-entry {
+	color: #999999;
+}
+
+#group-entry {
+	color: #999999;
+}
+
+.caret{
+	 text-align: right;
+}
+
+.side
+
+.group-item{
+	font-weight: 700;/*bold*/
+}
+
+.people-item{
+	font-weight: 700;/*bold*/
+}
+
+.toggledOnline{
+	color: #00E6E6;
+	font-weight: 400;
+}
